@@ -5,29 +5,47 @@
 <head>
 	<meta charset="utf-8">
 
-	<title>This is the Page Title</title>
-
-	<meta name="description" content="">
+	<title>Dan Schafer's Portfolio</title>
 
   <!-- Mobile-friendly viewport -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-   <!-- Style sheet link -->
-	<link href="css/main.css" rel="stylesheet" media="all">
+   <!-- Style sheet links, including bootstrap -->
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+	<link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
 
 </head>
-<body>
 
-   <!-- Image example -->
-   <img src="img/image.jpg" alt="Picture of an image">
-   <img src="https://farm2.staticflickr.com/1621/25294079743_ce52553857_z.jpg" width="640" height="293" alt="P1100732">
+<body class="dark-purple">
 
-    <!-- Link example -->
-    <p>Click here to go to<a href="http://yahoo.com">Yahoo.com</a></p>
+	<div class="container">
+		<div class="page-header">
+			<h1>Daniel Schafer * Portfolio </h1>
+		</div>
+	</div>
+<img class="displayed img-border" src="img/purple_tower.jpg" alt="Picture of the Purple Tower" height="640">
 
-	<header role="banner">
+  <!-- <img class="displayed" src="https://farm2.staticflickr.com/1621/25294079743_ce52553857_z.jpg" width="640" height="293" alt="P1100732"> -->
 
-		<a class="brand">Site Title or Logo</a>
+
+
+
+<div class="container">
+		<div class="row">
+		  <div class="col-md-4">
+				<p class="lead">Click here to go to <a href="#">My sweet CupCake page</a></p>
+				<p class="lead">This is one of my first html/css examples. Don't get too excited, it's not that great. But it has nice pictures of cupcakes !</p>
+			</div>
+		  <div class="col-md-4">
+				<p class="lead">Click here to go to <a href="#">My sweet Recipes page</a></p>
+				<p class="lead">I got yummmmmy recipes. And I put them all here.</p>
+			</div>
+		  <div class="col-md-4">
+				<p class="lead">Click here to go to <a href="#">My sweet (future) Python projects</a></p>
+				<p class="lead">Ohhhh Man. Once I get this coding thing down, I'm going to learn python, and then SAVE THE WORLD !!</p>
+			</div>
+		</div>
+</div>
 
 		<nav role="navigation">
 			<ul class="navbar">
@@ -37,13 +55,6 @@
 				<li><a href="#">Page 4</a></li>
 			</ul>
 		</nav>
-
-	</header>
-	<main role="main">
-
-		<h1>h1 Heading</h1>
-
-    <p>Use the HTML5 <code>main</code> element to wrap the central content of your page.</p>
 
 		<h2>h2 Heading</h2>
 
@@ -67,20 +78,18 @@
       <li>List item</li>
     </ol>
 
-	</main><!-- End primary page content -->
-	<aside role="complementary">
 
-		<h3>h3 header</h3>
+		<!-- Link example -->
+		<p>Click here to go to<a href="http://yahoo.com">Yahoo.com</a></p>
 
-    <p>Use the <code>aside</code> element if you need to include content that is not central to the focus of the page or is clearly of secondary importance.</p>
-
-	</aside>
 	<footer role="contentinfo">
 
 		<div>Page footer content</div>
 
-		<small>Copyright &copy; <time datetime="2015">2016</time></small>
+		<small>Copyright &copy; Dan Schafer<time datetime="2015">2016</time></small>
 
 	</footer>
+
+
 </body>
 </html>

@@ -1,0 +1,34 @@
+/* This is
+a multi-line
+comment */
+
+.purple {
+  background: #faf5ff;
+}
+.dark-purple {
+  background: #560D7F;
+  color: yellow;
+}
+
+.center {
+    margin: auto;
+    width: 60%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+}
+
+/* to center an image */
+/* from: https://www.w3.org/Style/Examples/007/center.en.html  */
+
+img.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.img-border {
+  margin: 30px;
+  border: 10px solid green;
+  padding: 10px;
+  background-color: yellow;
+}
