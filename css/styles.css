@@ -7,14 +7,7 @@ comment */
 }
 .dark-purple {
   background: #560D7F;
-  color: yellow;
-}
-
-.center {
-    margin: auto;
-    width: 60%;
-    border: 3px solid #73AD21;
-    padding: 10px;
+  color: #FFF200;
 }
 
 /* to center an image */
@@ -28,7 +21,17 @@ img.displayed {
 
 .img-border {
   margin: 30px;
-  border: 10px solid green;
+  border: 10px solid #B23110;
   padding: 10px;
-  background-color: yellow;
+  background-color: #FFF200;
+}
+
+.float-right {
+  float: right;
+}
+
+.smaller-border{
+    margin: 10px;
+    border: 5px solid #FFF200;
+    padding: 5px;
 }
