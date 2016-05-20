@@ -22,7 +22,11 @@ _Contact me at danfschafer@gmail.com for any bugs or enhancement requests. Thank
 
 _html and CSS. Framework with BootStrap._
 
-### License
+## Links to project
+GitHub Pages: http://danfschafer.github.io/PortfolioLandingPage/
+GitHub Repository: https://github.com/DanFSchafer/PortfolioLandingPage
+
+## License
 
 *License TBD*
 
