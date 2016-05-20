@@ -29,6 +29,6 @@ GitHub Repository: https://github.com/DanFSchafer/PortfolioLandingPage
 
 ## License
 
-*License TBD*
+*License MIT*
 
 Copyright (c) 2016 **_Dan Schafer_**
