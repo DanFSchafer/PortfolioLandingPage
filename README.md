@@ -24,6 +24,7 @@ _html and CSS. Framework with BootStrap._
 
 ## Links to project
 GitHub Pages: http://danfschafer.github.io/PortfolioLandingPage/
+
 GitHub Repository: https://github.com/DanFSchafer/PortfolioLandingPage
 
 ## License
