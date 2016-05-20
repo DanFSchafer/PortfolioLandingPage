@@ -35,3 +35,8 @@ img.displayed {
     border: 5px solid #FFF200;
     padding: 5px;
 }
+
+.excited{
+  color: purple;
+  background-color: yellow;
+}
